@@ -68,7 +68,6 @@ a.pure-button-primary {
     background:#363636;
 }
 
-
 .home-menu .pure-menu-heading {
     color: white;
     font-weight: 400;
@@ -89,9 +88,7 @@ a.pure-button-primary {
     color: #AECFE5;
 }
 
-
 /* -- SPLASH STYLES -- */
-
 .splash-container {
     background: #FFFFFF;
     z-index: 1;
@@ -108,7 +105,6 @@ a.pure-button-primary {
 }
 
 .splash {
-    /* absolute center .splash within .splash-container */
     width: 80%;
     height: 50%;
     margin: 75px auto 50px auto;
@@ -195,13 +191,10 @@ a.pure-button-primary {
 /* -- TABLET (AND UP) MEDIA QUERIES -- */
 @media (min-width: 48em) {
 
-    /* We increase the body font size */
     body {
         font-size: 16px;
     }
 
-    /* We can align the menu header to the left, but float the
-    menu items to the right. */
     .home-menu {
         text-align: left;
     }
@@ -209,13 +202,6 @@ a.pure-button-primary {
             float: right;
         }
 
-    /* We increase the height of the splash-container */
-/*    .splash-container {
-        height: 500px;
-    }*/
-
-    /* We decrease the width of the .splash, since we have more width
-    to work with */
     .splash {
         width: 50%;
         height: 50%;
@@ -225,8 +211,6 @@ a.pure-button-primary {
         font-size: 250%;
     }
 
-
-    /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
         border: none;
     }
@@ -235,7 +219,6 @@ a.pure-button-primary {
 
 /* -- DESKTOP (AND UP) MEDIA QUERIES -- */
 @media (min-width: 78em) {
-    /* We increase the header font size even more */
     .splash-head {
         font-size: 300%;
     }
