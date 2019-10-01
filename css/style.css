@@ -1,3 +1,9 @@
+a
+{
+    color: #7f8c8d !important;
+    text-decoration: none;
+}
+
 .map
 {
     -webkit-filter: grayscale(100%) !important;
@@ -5,4 +11,9 @@
     -ms-filter: grayscale(100%) !important;
     -o-filter: grayscale(100%) !important;
     filter: grayscale(100%) !important;
+}
+
+.text-coral
+{
+    color: lightcoral !important;
 }
